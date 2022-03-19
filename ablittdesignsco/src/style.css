@@ -1,0 +1,143 @@
+/* BRAND COLOURS
+
+pink/peach 1: #ef9878 , rgba(239,152,120,255)
+pp2:  #ee9879 , rgba(238,152,121,255)
+yellow1:  #f4c24e , rgba(244,194,78,255)
+yellow2:  #f6c14f , rgba(246,193,79,255)
+blue1:  #98c1d7 , rgba(152,193,215,255)
+blue2:  #98c0d7 , rgba(152,192,215,255)
+green1:  #bcd69a , rgba(188,214,154,255)
+green2:  #bcd699 , rgba(188,214,153,255)
+purple1:  #b4a9d7 , rgba(180,169,215,255)
+purple2:  #b5a9db , rgba(181,169,219,255)
+red/dark pink: #d75754 , rgba(215,87,84,255)
+orange: #ffb35e , rgba(255,179,94,255)
+
+background beige: #e9d8c4 , rgba(233,216,196,255)
+
+
+*/
+
+
+#logo_gif {
+    width:  20em;
+    height: 20em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -4em;
+    display: block;
+    padding: 2em;
+}
+
+#cart_icon {
+    width: 2em;
+    height: 2em;
+    margin-right: 40px;
+    padding: 1px;
+    float: right;
+    margin-top: -70px;
+}
+
+#account_icon {
+    width: 2em;
+    height: 2em;
+    margin-right: 80px;
+    float: right;
+    margin-top: -70px;
+    padding: 1px;
+}
+
+
+body {
+    background-color: #F4ECDB;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 3px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #98c1d7;
+}
+
+
+
+.main_navbar {
+
+    /* display block & margin auto & text align to center navbar */
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-left: -75px;
+}
+
+.navbar_links {
+    position: relative;
+    display: block;
+    word-spacing: 53px;
+
+    font-family: Tahoma;
+    font-size: 24px;
+    margin-top: -33px;
+    letter-spacing: 1px;
+}
+
+.dropdown_nav {
+    position: relative;
+    display: inline-block;
+    word-spacing: 1px;
+}
+
+.dropdown_links {
+    display: none;
+    position: absolute;
+    text-align: left;
+
+    font-size: 18px;
+    margin-left: -50px;
+}
+
+.dropdown_nav:hover .dropdown_links {
+    display: block;
+    width: 100px;
+
+}
+
+/* change from + to - when dropdown menu is open */
+
+.dropdown_nav .shop_after {
+    display: none;
+}
+
+.dropdown_nav .faq_after {
+    display: none;
+}
+
+.dropdown_nav:hover .shop_before {
+    display: none;
+}
+
+.dropdown_nav:hover .faq_before {
+    display: none;
+}
+
+.dropdown_nav:hover .shop_after {
+    display: inline;
+}
+
+.dropdown_nav:hover .faq_after {
+    display: inline;
+}
+
+.dropdown_links li {
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+
+/* finished */
