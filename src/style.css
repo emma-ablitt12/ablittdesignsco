@@ -19,6 +19,14 @@ background beige: #e9d8c4 , rgba(233,216,196,255)
 */
 
 
+@media screen and (max-width: 600px) {
+  body {
+    word-spacing: 20px;
+
+    margin-right: auto;
+  }
+}
+
 #logo_gif {
     width:  20em;
     height: 20em;
