@@ -13,13 +13,14 @@ purple2:  #b5a9db , rgba(181,169,219,255)
 red/dark pink: #d75754 , rgba(215,87,84,255)
 orange: #ffb35e , rgba(255,179,94,255)
 
-background beige: #e9d8c4 , rgba(233,216,196,255)
+background beige1: #e9d8c4 , rgba(233,216,196,255)
+2: #f7f1e4 rgb 247,241,228
 
 
 */
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 481px) {
   body {
     word-spacing: 20px;
 
@@ -32,7 +33,7 @@ background beige: #e9d8c4 , rgba(233,216,196,255)
     height: 20em;
     margin-right: auto;
     margin-left: auto;
-    margin-top: -4em;
+    margin-top: -2em;
     display: block;
     padding: 2em;
 }
@@ -57,7 +58,8 @@ background beige: #e9d8c4 , rgba(233,216,196,255)
 
 
 body {
-    background-color: #F4ECDB;
+    background-color:#f7f1e4;
+    width: 100;
 }
 
 li {
@@ -93,6 +95,7 @@ a {
     font-size: 24px;
     margin-top: -33px;
     letter-spacing: 1px;
+    font-weight: bolder;
 }
 
 .dropdown_nav {
@@ -105,14 +108,16 @@ a {
     display: none;
     position: absolute;
     text-align: left;
+    padding-top: 3px;
 
     font-size: 18px;
-    margin-left: -50px;
+    background-color: #f7f1e4 ;
 }
 
 .dropdown_nav:hover .dropdown_links {
     display: block;
-    width: 100px;
+    width: 155px;
+    padding: 10px;
 
 }
 
@@ -149,3 +154,85 @@ a {
 
 
 /* finished */
+
+
+#promotion_image {
+
+    margin: auto;
+    width: 95%;
+    height: 600px;
+    padding:  15px;
+    display: block;
+}
+
+.favourites {
+    display: inline-flex;
+}
+
+.favourites_heading {
+    font-size: 24px;
+    font-family: tahoma;
+    letter-spacing: 1px;
+    position: block;
+    text-align: center;
+    color: #98c1d7 ;
+    margin-top: 80px;
+}
+
+.favourites h1 {
+    font-family: tahoma;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: auto;
+    color: #98c1d7;
+}
+
+.favourites p {
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bolder;
+    color: black;
+    margin-left: 50px;
+}
+
+.favourites_image {
+    padding: 15px;
+    margin: 40px;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    display: inline-table;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 25px;
+
+}
+
+.banner {
+    width: 100%;
+    height:  50px;
+    background-color: #98c1d7 ;
+    margin-top: 0 auto;
+}
+
+.top_banner {
+    display: block;
+    position: relative;
+    margin-top: -20px;
+    border-style: solid;
+    border-color: #98c1d7;
+    height: 50px;
+    width: 100%;
+    background-color: #98c1d7;
+    padding-bottom: 10px;
+
+}
+
+.banner h3 {
+    font-size: 24px;
+    font-family: tahoma;
+    font-weight: bolder;
+    color: #f7f1e4 ;
+    text-align: center;
+}
